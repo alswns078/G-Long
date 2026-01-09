@@ -56,7 +56,7 @@ bash run_msc.sh
 
 ## 🙏 Acknowledgements
 
-This project is built upon the foundational framework provided by **LD-Agent** (Li et al., 2025). We adapted their modular architecture to integrate our **Graph-Enhanced Memory** and **sLM-based Triplet Extraction** mechanisms. We strictly followed their prompt configurations to ensure a fair comparison. We thank the authors for their open-source contribution.
+This project is built upon the foundational framework provided by **LD-Agent** (Li et al., 2025). We adapted their modular architecture to integrate our **Graph-Enhanced Memory** and **sLM-based Triplet Extraction** mechanisms. We thank the authors for their open-source contribution.
 
 
 
