@@ -4,7 +4,8 @@
 This is the official anonymous repository for the paper **"G-Long: Graph-Enhanced Long-Term Memory for Dialogue Systems"**.
 
 ## 🚀 Overview
-G-Long introduces a structured graph memory framework to overcome the limitations of vector-based retrieval in long-term conversations. This repository contains the implementation for the **MSC (Multi-Session Chat)** dataset experiments.
+G-Long introduces a structured graph memory framework to overcome the limitations of unstructured based approach in long-term conversations. This repository contains the implementation for the **MSC (Multi-Session Chat)** dataset experiments.
+( * The code for **CC (Conversation Chronicles)** and **LME(LongMemEval)** is undergoing final refactoring and will be released in the next update.)
 
 ## 🛠️ Requirements
 * python >= 3.8
@@ -56,5 +57,6 @@ bash run_msc.sh
 ## 🙏 Acknowledgements
 
 This project is built upon the foundational framework provided by **LD-Agent** (Li et al., 2025). We adapted their modular architecture to integrate our **Graph-Enhanced Memory** and **sLM-based Triplet Extraction** mechanisms. We strictly followed their prompt configurations to ensure a fair comparison. We thank the authors for their open-source contribution.
+
 
 
