@@ -18,6 +18,29 @@ Install dependencies via:
 ```bash
 pip install -r requirements.txt
 ```
+## 🧩 Triplet Extraction Pipeline (sLM)
+
+Before running the main evaluation, we employ a fine-tuned sLM to extract and score knowledge triplets. The pipeline follows a sequential process: **Training $\rightarrow$ Inference $\rightarrow$ Scoring**.
+
+**Pipeline Steps:**
+1.  **Configure:** Set the model and save paths directly inside `triplet_extraction/train.py`.
+2.  **Train:** Run the training script to generate the LoRA adapter (hyperparameters follow the paper's settings).
+3.  **Inference:** Update the model and adapter paths in `triplet_extraction/inference.py` to extract triplets from the text into a JSON file.
+4.  **Scoring:** Specify the input JSON path in `triplet_extraction/attention_scorer.py` and execute it to calculate/append attention scores for each triplet.
+
+### Example Commands
+> **Note:** Please ensure to modify the model paths and file paths hard-coded in each script before execution.
+
+```bash
+# 1. Train: Fine-tune the model to get the LoRA adapter
+python triplet_extraction/train.py
+
+# 2. Inference: Extract triplets using the trained adapter
+python triplet_extraction/inference.py
+
+# 3. Scoring: Calculate attention scores for the extracted triplets
+python triplet_extraction/attention_scorer.py
+```
 
 ## 🏃 How to Run
 
