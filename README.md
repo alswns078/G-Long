@@ -1,7 +1,7 @@
 
-# G-Long: Graph-Enhanced Long-Term Memory for Dialogue Systems
+# G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents
 
-This is the official anonymous repository for the paper **"G-Long: Graph-Enhanced Long-Term Memory for Dialogue Systems"**.
+This is the official anonymous repository for the paper **"G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents"**.
 
 ## 🚀 Overview
 G-Long introduces a structured graph memory framework to overcome the limitations of unstructured based approach in long-term conversations. This repository contains the implementation for the **MSC (Multi-Session Chat)** dataset experiments.
